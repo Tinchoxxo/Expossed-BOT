@@ -1,0 +1,36 @@
+const desmenu = (prefix, pushname) => {
+    return `
+*Comandos De Descargas ✅*
+ 
+══════════════
+
+*AUDIO*
+
+${prefix}play2
+Una alternativa por si *play llego a su limite de canciones
+
+${prefix}play
+Coloca el nombre de la cancion, o el link del video YT
+
+Ejemplo:
+${prefix}play stay with me - 1nonly
+
+══════════════
+
+*VIDEO*
+
+${prefix}ytmp4
+Descarga videos de YouTube
+
+Ejemplo:
+${prefix}ytmp4 www.youtube.com/xxxxxxxx
+
+══════════════
+    
+_*play y *play2 tiene un limite de 2000 canciones en el server, si llega a su limite se restablecera dentro de 24 horas_
+     
+ву 𝓣𝓲𝓷𝓬𝓱𝓸`
+
+}
+
+exports.desmenu = desmenu
